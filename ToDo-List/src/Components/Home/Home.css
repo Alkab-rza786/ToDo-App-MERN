@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: royalblue;
+    padding: 24px;
+    border-radius: 8px;
+    color: #fff;
+    min-width: 450px;
+}
+
+.home h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.home .todo {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo .check-box {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    cursor: pointer;
+}
+
+.line-cut {
+    text-decoration: line-through;
+}
